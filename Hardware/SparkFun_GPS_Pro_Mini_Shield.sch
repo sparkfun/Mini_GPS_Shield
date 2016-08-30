@@ -22078,7 +22078,7 @@ UART Jumpers</text>
 <wire x1="116.84" y1="147.32" x2="116.84" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GPS_PPS" class="0">
+<net name="GPS_CTRL" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="P_CTRL"/>
 <wire x1="22.86" y1="76.2" x2="15.24" y2="76.2" width="0.1524" layer="91"/>
