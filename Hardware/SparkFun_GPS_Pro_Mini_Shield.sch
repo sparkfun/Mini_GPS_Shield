@@ -154,90 +154,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
 <libraries>
-<library name="uSD Socket temp">
-<packages>
-<package name="SLIM_USD">
-<smd name="GND3" x="0.325" y="5.14" dx="1.2" dy="1.05" layer="1" rot="R90"/>
-<smd name="GND4" x="0.325" y="1.955" dx="2.39" dy="1.05" layer="1" rot="R90"/>
-<smd name="GND5" x="3.505" y="6.385" dx="2.91" dy="0.55" layer="1"/>
-<smd name="GND6" x="7.695" y="6.385" dx="2.91" dy="0.55" layer="1"/>
-<smd name="GND2" x="11" y="5.71" dx="1.2" dy="1.05" layer="1" rot="R90"/>
-<smd name="GND1" x="11" y="3.1" dx="1.08" dy="1.05" layer="1" rot="R90"/>
-<smd name="9" x="11" y="1.83" dx="0.72" dy="0.78" layer="1" rot="R180"/>
-<smd name="8" x="1.5" y="-0.85" dx="1" dy="0.5" layer="1" rot="R90"/>
-<smd name="7" x="2.6" y="-0.85" dx="1" dy="0.5" layer="1" rot="R90"/>
-<smd name="6" x="3.7" y="-0.85" dx="1" dy="0.5" layer="1" rot="R90"/>
-<smd name="5" x="4.8" y="-0.85" dx="1" dy="0.5" layer="1" rot="R90"/>
-<smd name="4" x="5.9" y="-0.85" dx="1" dy="0.5" layer="1" rot="R90"/>
-<smd name="3" x="7" y="-0.85" dx="1" dy="0.5" layer="1" rot="R90"/>
-<smd name="2" x="8.1" y="-0.85" dx="1" dy="0.5" layer="1" rot="R90"/>
-<smd name="1" x="9.2" y="-0.85" dx="1" dy="0.5" layer="1" rot="R90"/>
-<wire x1="11.3" y1="0" x2="11.3" y2="1.2" width="0.2032" layer="21"/>
-<wire x1="0" y1="5.95" x2="0" y2="6.45" width="0.2032" layer="21"/>
-<wire x1="0" y1="6.45" x2="1.85" y2="6.45" width="0.2032" layer="21"/>
-<wire x1="0" y1="0.55" x2="0" y2="0" width="0.2032" layer="21"/>
-<wire x1="0" y1="0" x2="11.3" y2="0" width="0.2032" layer="21"/>
-<wire x1="11.3" y1="3.85" x2="11.3" y2="4.9" width="0.2032" layer="21"/>
-<wire x1="10.25" y1="6.45" x2="9.35" y2="6.45" width="0.2032" layer="21"/>
-<wire x1="6.05" y1="6.45" x2="5.2" y2="6.45" width="0.2032" layer="21"/>
-<wire x1="0" y1="3.35" x2="0" y2="4.3" width="0.2032" layer="21"/>
-<wire x1="0.7" y1="-9.7" x2="11.7" y2="-9.7" width="0.2032" layer="51"/>
-<wire x1="11.7" y1="-9.7" x2="11.7" y2="-8.2" width="0.2032" layer="51"/>
-<wire x1="11.7" y1="-8.2" x2="11.7" y2="-0.2" width="0.2032" layer="51"/>
-<wire x1="11.7" y1="-0.2" x2="10.45" y2="1.05" width="0.2032" layer="51"/>
-<wire x1="10.45" y1="5.3" x2="0.7" y2="5.3" width="0.2032" layer="51"/>
-<wire x1="0.7" y1="5.3" x2="0.7" y2="-8.2" width="0.2032" layer="51"/>
-<wire x1="0.7" y1="-8.2" x2="0.7" y2="-9.7" width="0.2032" layer="51"/>
-<wire x1="10.45" y1="1.05" x2="10.45" y2="5.3" width="0.2032" layer="51"/>
-<wire x1="0.7" y1="-8.2" x2="11.7" y2="-8.2" width="0.2032" layer="51"/>
-<text x="4.85" y="-5.95" size="1.27" layer="51">uSD</text>
-</package>
-</packages>
-<symbols>
-<symbol name="USDSOCK(TINY)">
-<wire x1="-2.54" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
-<wire x1="10.16" y1="15.24" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
-<text x="-2.54" y="15.748" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="CS" x="-5.08" y="10.16" visible="pin" length="short"/>
-<pin name="DI" x="-5.08" y="7.62" visible="pin" length="short"/>
-<pin name="GND" x="-5.08" y="-7.62" visible="pin" length="short"/>
-<pin name="VCC" x="-5.08" y="5.08" visible="pin" length="short"/>
-<pin name="SCK" x="-5.08" y="2.54" visible="pin" length="short"/>
-<pin name="RSV" x="-5.08" y="-2.54" visible="pin" length="short"/>
-<pin name="DO" x="-5.08" y="0" visible="pin" length="short"/>
-<pin name="NC" x="-5.08" y="12.7" visible="pin" length="short"/>
-<pin name="SHIELD" x="-5.08" y="-10.16" visible="pin" length="short"/>
-<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="15.24" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="USD_TINY" prefix="J">
-<gates>
-<gate name="G$1" symbol="USDSOCK(TINY)" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SLIM_USD">
-<connects>
-<connect gate="G$1" pin="CS" pad="2"/>
-<connect gate="G$1" pin="DI" pad="3"/>
-<connect gate="G$1" pin="DO" pad="7"/>
-<connect gate="G$1" pin="GND" pad="6"/>
-<connect gate="G$1" pin="NC" pad="9"/>
-<connect gate="G$1" pin="RSV" pad="1 8"/>
-<connect gate="G$1" pin="SCK" pad="5"/>
-<connect gate="G$1" pin="SHIELD" pad="GND1 GND2 GND3 GND4 GND5 GND6"/>
-<connect gate="G$1" pin="VCC" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Connectors">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find connectors and sockets- basically anything that can be plugged into or onto.&lt;br&gt;&lt;br&gt;
@@ -751,24 +667,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="22.606" y1="-0.254" x2="23.114" y2="0.254" layer="51"/>
 <rectangle x1="20.066" y1="-0.254" x2="20.574" y2="0.254" layer="51"/>
 <rectangle x1="17.526" y1="-0.254" x2="18.034" y2="0.254" layer="51"/>
-</package>
-<package name="EM406">
-<wire x1="0" y1="-2.921" x2="5.08" y2="-2.921" width="0.254" layer="21"/>
-<wire x1="-1.778" y1="-0.762" x2="-1.778" y2="0.635" width="0.254" layer="21"/>
-<wire x1="5.842" y1="0.635" x2="6.858" y2="0.635" width="0.254" layer="21"/>
-<wire x1="6.858" y1="0.635" x2="6.858" y2="-0.762" width="0.254" layer="21"/>
-<wire x1="-1.778" y1="0.635" x2="-0.762" y2="0.635" width="0.254" layer="21"/>
-<circle x="0" y="1.27" radius="0.1047" width="0.4064" layer="21"/>
-<smd name="P$1" x="-1.3" y="-2.225" dx="1.2" dy="1.8" layer="1"/>
-<smd name="P$2" x="6.3" y="-2.225" dx="1.2" dy="1.8" layer="1"/>
-<smd name="1" x="0" y="0" dx="0.6" dy="1.55" layer="1"/>
-<smd name="2" x="1" y="0" dx="0.6" dy="1.55" layer="1"/>
-<smd name="3" x="2" y="0" dx="0.6" dy="1.55" layer="1"/>
-<smd name="4" x="3" y="0" dx="0.6" dy="1.55" layer="1"/>
-<smd name="5" x="4" y="0" dx="0.6" dy="1.55" layer="1"/>
-<smd name="6" x="5" y="0" dx="0.6" dy="1.55" layer="1"/>
-<text x="1.27" y="1.27" size="0.4064" layer="25">&gt;Name</text>
-<text x="1.27" y="-3.81" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
 <package name="1X06">
 <wire x1="11.43" y1="0.635" x2="12.065" y2="1.27" width="0.2032" layer="21"/>
@@ -1524,20 +1422,6 @@ Used on FTDI breakouts</description>
 <pin name="11" x="10.16" y="10.16" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="12" x="10.16" y="12.7" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-<symbol name="EM406">
-<wire x1="-7.62" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="7.62" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<text x="-7.62" y="8.89" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-13.97" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND1" x="-12.7" y="5.08" length="middle"/>
-<pin name="GND2" x="-12.7" y="-5.08" length="middle"/>
-<pin name="TX" x="-12.7" y="-2.54" length="middle"/>
-<pin name="RX" x="-12.7" y="0" length="middle"/>
-<pin name="1PPS" x="-12.7" y="-7.62" length="middle"/>
-<pin name="VCC" x="-12.7" y="2.54" length="middle"/>
-</symbol>
 <symbol name="M06">
 <wire x1="1.27" y1="-7.62" x2="-5.08" y2="-7.62" width="0.4064" layer="94"/>
 <wire x1="-1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
@@ -1733,28 +1617,6 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="EM406" prefix="U">
-<description>&lt;b&gt;EM406 GPS Connector&lt;/b&gt;
-Proven layout and schematic for EM406 connector. Spark Fun Electronics SKU : GPS-00579</description>
-<gates>
-<gate name="G$1" symbol="EM406" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="EM406">
-<connects>
-<connect gate="G$1" pin="1PPS" pad="6"/>
-<connect gate="G$1" pin="GND1" pad="1"/>
-<connect gate="G$1" pin="GND2" pad="5"/>
-<connect gate="G$1" pin="RX" pad="3"/>
-<connect gate="G$1" pin="TX" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -21458,6 +21320,147 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 </deviceset>
 </devicesets>
 </library>
+<library name="GPS_Pro_Mini_temp">
+<packages>
+<package name="GP735">
+<wire x1="0" y1="2.921" x2="-5.08" y2="2.921" width="0.254" layer="21"/>
+<wire x1="1.778" y1="0.762" x2="1.778" y2="-0.635" width="0.254" layer="21"/>
+<wire x1="-5.842" y1="-0.635" x2="-6.858" y2="-0.635" width="0.254" layer="21"/>
+<wire x1="-6.858" y1="-0.635" x2="-6.858" y2="0.762" width="0.254" layer="21"/>
+<wire x1="1.778" y1="-0.635" x2="0.762" y2="-0.635" width="0.254" layer="21"/>
+<circle x="0" y="-1.27" radius="0.1047" width="0.4064" layer="21"/>
+<smd name="P$1" x="1.3" y="2.225" dx="1.2" dy="1.8" layer="1" rot="R180"/>
+<smd name="P$2" x="-6.3" y="2.225" dx="1.2" dy="1.8" layer="1" rot="R180"/>
+<smd name="1" x="0" y="0" dx="0.6" dy="1.55" layer="1" rot="R180"/>
+<smd name="2" x="-1" y="0" dx="0.6" dy="1.55" layer="1" rot="R180"/>
+<smd name="3" x="-2" y="0" dx="0.6" dy="1.55" layer="1" rot="R180"/>
+<smd name="4" x="-3" y="0" dx="0.6" dy="1.55" layer="1" rot="R180"/>
+<smd name="5" x="-4" y="0" dx="0.6" dy="1.55" layer="1" rot="R180"/>
+<smd name="6" x="-5" y="0" dx="0.6" dy="1.55" layer="1" rot="R180"/>
+<text x="-1.27" y="-1.27" size="0.4064" layer="25" rot="R180">&gt;Name</text>
+<text x="-1.27" y="3.81" size="0.4064" layer="27" rot="R180">&gt;VALUE</text>
+</package>
+<package name="MICROSD_TINY">
+<smd name="GND3" x="0.325" y="5.14" dx="1.2" dy="1.05" layer="1" rot="R90"/>
+<smd name="GND4" x="0.325" y="1.955" dx="2.39" dy="1.05" layer="1" rot="R90"/>
+<smd name="GND5" x="3.505" y="6.385" dx="2.91" dy="0.55" layer="1"/>
+<smd name="GND6" x="7.695" y="6.385" dx="2.91" dy="0.55" layer="1"/>
+<smd name="GND2" x="11" y="5.71" dx="1.2" dy="1.05" layer="1" rot="R90"/>
+<smd name="GND1" x="11" y="3.1" dx="1.08" dy="1.05" layer="1" rot="R90"/>
+<smd name="9" x="11" y="1.83" dx="0.72" dy="0.78" layer="1" rot="R180"/>
+<smd name="8" x="1.5" y="-0.85" dx="1" dy="0.5" layer="1" rot="R90"/>
+<smd name="7" x="2.6" y="-0.85" dx="1" dy="0.5" layer="1" rot="R90"/>
+<smd name="6" x="3.7" y="-0.85" dx="1" dy="0.5" layer="1" rot="R90"/>
+<smd name="5" x="4.8" y="-0.85" dx="1" dy="0.5" layer="1" rot="R90"/>
+<smd name="4" x="5.9" y="-0.85" dx="1" dy="0.5" layer="1" rot="R90"/>
+<smd name="3" x="7" y="-0.85" dx="1" dy="0.5" layer="1" rot="R90"/>
+<smd name="2" x="8.1" y="-0.85" dx="1" dy="0.5" layer="1" rot="R90"/>
+<smd name="1" x="9.2" y="-0.85" dx="1" dy="0.5" layer="1" rot="R90"/>
+<wire x1="11.3" y1="0" x2="11.3" y2="1.2" width="0.2032" layer="21"/>
+<wire x1="0" y1="5.95" x2="0" y2="6.45" width="0.2032" layer="21"/>
+<wire x1="0" y1="6.45" x2="1.85" y2="6.45" width="0.2032" layer="21"/>
+<wire x1="0" y1="0.55" x2="0" y2="0" width="0.2032" layer="21"/>
+<wire x1="0" y1="0" x2="11.3" y2="0" width="0.2032" layer="21"/>
+<wire x1="11.3" y1="3.85" x2="11.3" y2="4.9" width="0.2032" layer="21"/>
+<wire x1="10.25" y1="6.45" x2="9.35" y2="6.45" width="0.2032" layer="21"/>
+<wire x1="6.05" y1="6.45" x2="5.2" y2="6.45" width="0.2032" layer="21"/>
+<wire x1="0" y1="3.35" x2="0" y2="4.3" width="0.2032" layer="21"/>
+<wire x1="0.7" y1="-9.7" x2="11.7" y2="-9.7" width="0.2032" layer="51"/>
+<wire x1="11.7" y1="-9.7" x2="11.7" y2="-8.2" width="0.2032" layer="51"/>
+<wire x1="11.7" y1="-8.2" x2="11.7" y2="-0.2" width="0.2032" layer="51"/>
+<wire x1="11.7" y1="-0.2" x2="10.45" y2="1.05" width="0.2032" layer="51"/>
+<wire x1="10.45" y1="5.3" x2="0.7" y2="5.3" width="0.2032" layer="51"/>
+<wire x1="0.7" y1="5.3" x2="0.7" y2="-8.2" width="0.2032" layer="51"/>
+<wire x1="0.7" y1="-8.2" x2="0.7" y2="-9.7" width="0.2032" layer="51"/>
+<wire x1="10.45" y1="1.05" x2="10.45" y2="5.3" width="0.2032" layer="51"/>
+<wire x1="0.7" y1="-8.2" x2="11.7" y2="-8.2" width="0.2032" layer="51"/>
+<text x="4.85" y="-5.95" size="1.27" layer="51">uSD</text>
+<rectangle x1="1.016" y1="1.016" x2="9.652" y2="4.826" layer="39"/>
+</package>
+</packages>
+<symbols>
+<symbol name="GP735">
+<wire x1="-7.62" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-13.97" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="-12.7" y="5.08" length="middle"/>
+<pin name="VBAT" x="-12.7" y="-5.08" length="middle"/>
+<pin name="TX" x="-12.7" y="-2.54" length="middle"/>
+<pin name="RX" x="-12.7" y="0" length="middle"/>
+<pin name="P_CTRL" x="-12.7" y="-7.62" length="middle"/>
+<pin name="VCC" x="-12.7" y="2.54" length="middle"/>
+</symbol>
+<symbol name="MICROSD_TINY">
+<wire x1="-2.54" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+<text x="-2.54" y="15.748" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="CS" x="-5.08" y="10.16" visible="pin" length="short"/>
+<pin name="DI" x="-5.08" y="7.62" visible="pin" length="short"/>
+<pin name="GND" x="-5.08" y="-7.62" visible="pin" length="short"/>
+<pin name="VCC" x="-5.08" y="5.08" visible="pin" length="short"/>
+<pin name="SCK" x="-5.08" y="2.54" visible="pin" length="short"/>
+<pin name="RSV" x="-5.08" y="-2.54" visible="pin" length="short"/>
+<pin name="DO" x="-5.08" y="0" visible="pin" length="short"/>
+<pin name="NC" x="-5.08" y="12.7" visible="pin" length="short"/>
+<pin name="SHIELD" x="-5.08" y="-10.16" visible="pin" length="short"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="15.24" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GP735" prefix="U">
+<gates>
+<gate name="G$1" symbol="GP735" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="GP735">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="P_CTRL" pad="6"/>
+<connect gate="G$1" pin="RX" pad="3"/>
+<connect gate="G$1" pin="TX" pad="4"/>
+<connect gate="G$1" pin="VBAT" pad="5"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-08249" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MICROSD_TINY" prefix="U">
+<gates>
+<gate name="G$1" symbol="MICROSD_TINY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MICROSD_TINY">
+<connects>
+<connect gate="G$1" pin="CS" pad="2"/>
+<connect gate="G$1" pin="DI" pad="3"/>
+<connect gate="G$1" pin="DO" pad="7"/>
+<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="NC" pad="9"/>
+<connect gate="G$1" pin="RSV" pad="1 8"/>
+<connect gate="G$1" pin="SCK" pad="5"/>
+<connect gate="G$1" pin="SHIELD" pad="GND1 GND2 GND3 GND4 GND5 GND6"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-13500" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -21468,14 +21471,14 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 </class>
 </classes>
 <parts>
-<part name="J1" library="uSD Socket temp" deviceset="USD_TINY" device=""/>
+<part name="J1" library="GPS_Pro_Mini_temp" deviceset="MICROSD_TINY" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="M12" device="NO_SILK"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="M12" device="NO_SILK"/>
 <part name="BAT1" library="SparkFun-Electromechanical" deviceset="BATTERY" device="12MM" value="12MM Coin Cell"/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U1" library="SparkFun-Connectors" deviceset="EM406" device=""/>
+<part name="U1" library="GPS_Pro_Mini_temp" deviceset="GP735" device=""/>
 <part name="J4" library="SparkFun-Connectors" deviceset="M06" device="NO_SILK_FEMALE_PTH"/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
@@ -21665,7 +21668,7 @@ UART Jumpers</text>
 <junction x="109.22" y="73.66"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="GND1"/>
+<pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="22.86" y1="88.9" x2="17.78" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="88.9" x2="17.78" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
@@ -22057,7 +22060,7 @@ UART Jumpers</text>
 <pinref part="SUPPLY1" gate="G$1" pin="V_BATT"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="GND2"/>
+<pinref part="U1" gate="G$1" pin="VBAT"/>
 <wire x1="22.86" y1="78.74" x2="20.32" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="78.74" x2="20.32" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="SUPPLY8" gate="G$1" pin="V_BATT"/>
@@ -22077,7 +22080,7 @@ UART Jumpers</text>
 </net>
 <net name="GPS_PPS" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="1PPS"/>
+<pinref part="U1" gate="G$1" pin="P_CTRL"/>
 <wire x1="22.86" y1="76.2" x2="15.24" y2="76.2" width="0.1524" layer="91"/>
 <label x="15.24" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
