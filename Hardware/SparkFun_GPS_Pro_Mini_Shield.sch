@@ -21709,6 +21709,10 @@ UART Select</text>
 <wire x1="213.36" y1="149.86" x2="215.9" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="149.86" x2="215.9" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
+<pinref part="U2" gate="G$1" pin="OE"/>
+<wire x1="213.36" y1="147.32" x2="215.9" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="147.32" x2="215.9" y2="149.86" width="0.1524" layer="91"/>
+<junction x="215.9" y="149.86"/>
 </segment>
 <segment>
 <wire x1="45.72" y1="160.02" x2="53.34" y2="160.02" width="0.1524" layer="91"/>

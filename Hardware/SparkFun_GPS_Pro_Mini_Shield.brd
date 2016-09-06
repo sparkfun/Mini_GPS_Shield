@@ -29,9 +29,9 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -52,9 +52,9 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -214,6 +214,7 @@ GPS Shield</text>
 <text x="15.24" y="30.48" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-center">RAW</text>
 <text x="2.54" y="30.48" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="bottom-center">TXO</text>
 <text x="2.54" y="27.94" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="bottom-center">RXI</text>
+<text x="22.86" y="13.97" size="1.27" layer="51" font="vector" ratio="15">PCB thickness = 0.032"</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
@@ -1886,6 +1887,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="5.93" y1="9.652" x2="8.4052875" y2="9.652" width="0.508" layer="16"/>
 <wire x1="8.4052875" y1="9.652" x2="9.779" y2="8.2782875" width="0.508" layer="16"/>
 <wire x1="9.779" y1="8.2782875" x2="9.779" y2="6.223" width="0.508" layer="16"/>
+<contactref element="U2" pad="6"/>
+<wire x1="9.133" y1="13.262" x2="9.7960875" y2="13.262" width="0.1778" layer="1"/>
+<wire x1="9.7960875" y1="13.262" x2="10.033" y2="13.4989125" width="0.1778" layer="1"/>
+<wire x1="10.033" y1="13.4989125" x2="10.033" y2="13.662" width="0.1778" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="J1" pad="6"/>
