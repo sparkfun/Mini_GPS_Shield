@@ -21632,7 +21632,7 @@ UART Select</text>
 <wire x1="78.74" y1="53.34" x2="78.74" y2="0" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="40.64" y1="53.34" x2="40.64" y2="0" width="0.1524" layer="97" style="shortdash"/>
 <text x="166.878" y="11.43" size="2.54" layer="94">Alex Wende</text>
-<text x="238.76" y="7.62" size="2.54" layer="94">v01</text>
+<text x="238.76" y="7.62" size="2.54" layer="94">v10</text>
 <text x="104.14" y="137.16" size="1.778" layer="97">V_BATT : 1.5V - 3.5V</text>
 </plain>
 <instances>
