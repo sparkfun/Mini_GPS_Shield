@@ -221,7 +221,7 @@ Shield</text>
 <wire x1="0" y1="5.715" x2="0" y2="5.207" width="0.2032" layer="20"/>
 <wire x1="0" y1="5.207" x2="17.78" y2="5.207" width="0.2032" layer="20"/>
 <wire x1="17.78" y1="5.207" x2="17.78" y2="5.715" width="0.2032" layer="20"/>
-<text x="-0.381" y="5.461" size="1.016" layer="51" font="vector" ratio="15" rot="R180" align="center-left">V-score</text>
+<text x="-0.381" y="5.461" size="1.016" layer="20" font="vector" ratio="15" rot="R180" align="center-left">V-score</text>
 <wire x1="0" y1="40.005" x2="17.78" y2="40.005" width="0.2032" layer="20"/>
 <dimension x1="0" y1="40.005" x2="17.78" y2="40.005" x3="8.89" y3="44.45" textsize="1.016" textratio="15" layer="47" unit="inch"/>
 <dimension x1="17.78" y1="0" x2="17.78" y2="5.207" x3="22.86" y3="2.6035" textsize="1.016" textratio="15" layer="47" unit="inch"/>
