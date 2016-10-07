@@ -21841,7 +21841,7 @@ UART Select</text>
 <label x="218.44" y="144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="1/TX" class="0">
+<net name="TX/1" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="12"/>
 <wire x1="175.26" y1="96.52" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
@@ -21853,7 +21853,7 @@ UART Select</text>
 <label x="15.24" y="15.24" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="0/RX" class="0">
+<net name="RX/0" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="11"/>
 <wire x1="175.26" y1="93.98" x2="177.8" y2="93.98" width="0.1524" layer="91"/>
